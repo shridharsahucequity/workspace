@@ -1,0 +1,63 @@
+package com.adobe.asianpaints.core.aem;
+import java.util.List;
+
+public class ClassicMultiBean {
+	
+	private String categoryLabel;
+	
+	private String categoryPath;
+	   
+    private List<ItemsBean> items;
+    
+    private Integer itemsCount;
+   
+    public List<ItemsBean> getItems() {
+   
+        return items;
+   
+    }
+   
+    public void setItems(List<ItemsBean> items) {
+   
+        this.items = items;
+   
+    }
+   
+    public Integer getItemsCount() {
+   
+        return itemsCount;
+   
+    }
+   
+    public void setItemsCount(Integer itemsCount) {
+   
+        this.itemsCount = itemsCount;
+   
+    }
+    
+    public String getCategoryLabel() {
+    	   
+        return categoryLabel;
+   
+    }
+   
+    public void setCategoryLabel(String categoryLabel) {
+   
+        this.categoryLabel = categoryLabel;
+   
+    }
+   
+    
+    public String getCategoryPath() {
+    	   
+        return categoryPath;
+   
+    }
+   
+    public void setCategoryPath(String categoryPath) {
+   
+        this.categoryPath = categoryPath;
+   
+    }    
+
+}
